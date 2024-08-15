@@ -15,7 +15,7 @@ function generateData(name, colors) {
   const data = {
     wrapperColor: wrapperColor,
     faceColor: getContrast(wrapperColor),
-    backgroundColor: getRandomColor(numFromName + 13, colors, range),
+    backgroundColor: '#000000',
     wrapperTranslateX: wrapperTranslateX,
     wrapperTranslateY: wrapperTranslateY,
     wrapperRotate: getUnit(numFromName, 360),
